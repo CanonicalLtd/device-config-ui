@@ -1,0 +1,23 @@
+name: device-config-ui
+base: core18
+version: '0.1'
+summary: Custom user interface for the device config snap
+description: |
+  Custom user interface for the device config snap
+
+grade: stable
+confinement: strict
+
+slots:
+  web-resources:
+    interface: content
+    content: custom
+    read:
+      - $SNAP/custom
+
+parts:
+  custom:
+    source: custom
+    plugin: dump
+    organize:
+      "*": /custom/
