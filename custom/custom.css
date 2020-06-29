@@ -13,3 +13,13 @@ section.p-strip--image {
     background-image: url('/static/custom/banner.png');
     color: rgb(255,136,0) !important;
 }
+
+.p-button--brand, .p-button--positive {
+    background-color: rgb(255,136,0);
+    border-color: rgb(255,136,0);
+}
+
+.p-button--brand:hover, .p-button--positive:hover {
+    background-color: rgb(255,136,0);
+    border-color: rgb(255,136,0);
+}

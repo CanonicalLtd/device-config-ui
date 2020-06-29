@@ -11,7 +11,6 @@ confinement: strict
 slots:
   web-resources:
     interface: content
-    content: custom
     read:
       - $SNAP/custom
 

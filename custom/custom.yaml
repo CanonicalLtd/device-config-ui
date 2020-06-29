@@ -3,12 +3,10 @@ subtitle: "Configuration service for Ubuntu Core devices (custom)."
 
 copyright: "© 2020 Canonical Ltd. Ubuntu and Canonical are registered trademarks of Canonical Ltd. Custom."
 
-- bullet:
-    text: "Legal information (custom)"
-    url: "https://ubuntu.com/legal#custom"
-- bullet:
-    text: "Privacy (custom)"
-    url: "https://ubuntu.com/legal/data-privacy#custom"
-- bullet:
-    text: "Report a bug on this site (custom)"
-    url: "https://github.com/CanonicalLtd/device-config/issues/new#custom"
+bullets:
+    - text: "Legal information (custom)"
+      url: "https://ubuntu.com/legal#custom"
+    - text: "Privacy (custom)"
+      url: "https://ubuntu.com/legal/data-privacy#custom"
+    - text: "Report a bug on this site (custom)"
+      url: "https://github.com/CanonicalLtd/device-config/issues/new#custom"
